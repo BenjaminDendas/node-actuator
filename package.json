@@ -1,6 +1,6 @@
 {
   "name": "node-actuator",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Node actuator",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "jsdoc": "^3.6.3"
+  },
+  "dependencies": {
+    "ssh2-sftp-client": "^2.5.0"
   }
 }

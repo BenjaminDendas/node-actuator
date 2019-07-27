@@ -1,4 +1,4 @@
-const metrics = () => {
+const getApplicationMetrics = () => {
         return {
             memoryUsage: process.memoryUsage(),
             uptime: process.uptime(),
@@ -11,5 +11,5 @@ const metrics = () => {
 }
 
 module.exports = {
-    metrics
+    getApplicationMetrics
 }
