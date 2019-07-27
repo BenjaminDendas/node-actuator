@@ -1,22 +1,20 @@
 const https = require('http');
 
-const healthStatus = () => {
-    return "health"
-}
-
+/**
+ * @description checks if the service is accessible by the system
+ * @param {string} url The url of the service that we try to access.
+ * @returns {Promise} returns a promise that returns a boolean upon resolving stating if the service is online or not.
+ */
 const isServerOnline = async (url) => {
     return new Promise((resolve, reject) => {
         http.get(url, () => {
-            // If you get here, you have a response.
             return resolve(true);
         }).on('error', (e) => {
-            // Here, an error occurred.  Check `e` for the error.
             return resolve(false);
         });
     })
 }
 
 module.exports = {
-    healthStatus,
     isServerOnline
 }
