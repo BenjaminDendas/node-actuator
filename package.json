@@ -1,0 +1,18 @@
+{
+  "name": "node-actuator",
+  "version": "1.0.9",
+  "description": "Node actuator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "actuator"
+  ],
+  "author": "Benjamin Dendas",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "^3.6.3"
+  }
+}

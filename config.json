@@ -1,0 +1,56 @@
+{
+    "actuator": {
+        "endpoints": [
+            {
+                "name":"info",
+                "route": "/info",
+                "active":true
+            },
+            {
+                "name": "health",
+                "route": "/health",            
+                "active": true
+            },
+            {
+                "name": "git",
+                "route": "/git",
+                "active": true
+            },
+            {
+                "name": "env",
+                "route": "/env",
+                "active": true
+            },
+            {
+                "name": "metrics",
+                "route": "/metrics",
+                "active": true
+            },
+            {
+                "name": "shutdown",
+                "route": "/shutdown",
+                "active": false
+            },
+            {
+                "name": "httptrace",
+                "route": "/httptrace",
+                "active": false
+            },
+            {
+                "name": "loggers",
+                "route": "/loggers",
+                "active": true
+            },
+            {
+                "name": "sftp",
+                "route": "/sftp",
+                "active": true
+            },
+            {
+                "name": "database",
+                "route": "/database",
+                "active": true
+            }
+        ]
+    }
+}
