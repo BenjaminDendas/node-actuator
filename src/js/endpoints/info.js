@@ -118,7 +118,7 @@ const getApplicationName = (packagepath) => {
  * @returns {boolean} result of fs.exists(path)
  */
 const checkPath = (path) => {
-    if (fs.exists(path)) {
+    if (fs.existsSync(path)) {
         return true;
     }
     return false;
