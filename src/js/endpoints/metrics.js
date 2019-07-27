@@ -9,7 +9,6 @@ const getApplicationMetrics = () => {
             resourceUsage: process.resourceUsage,
         }
 }
-
 module.exports = {
     getApplicationMetrics
 }

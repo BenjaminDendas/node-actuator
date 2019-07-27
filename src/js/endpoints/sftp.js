@@ -13,6 +13,7 @@ const isSftpServerOnline = async (host, port, username, password) => {
         return false;
     });
 }
+
 module.exports = {
     isSftpServerOnline
 }
