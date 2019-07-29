@@ -8,9 +8,17 @@ const http = require('http');
 const isServerOnline = async (url) => {
     return new Promise((resolve, reject) => {
         http.get(url, () => {
-            return resolve(true);
+            return resolve({
+                status: {
+                    online: true
+                }
+            });
         }).on('error', (e) => {
-            return resolve(false);
+            return resolve({
+                status: {
+                    online: false
+                }
+            });
         });
     })
 }
