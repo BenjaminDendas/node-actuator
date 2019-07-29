@@ -14,5 +14,5 @@ const isNodemailerServiceAvailable = async (transporter) => {
 }
 
 module.exports = {
-    isMailServiceAvailable
+    isNodemailerServiceAvailable
 }
