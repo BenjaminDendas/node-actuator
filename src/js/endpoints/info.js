@@ -19,6 +19,7 @@ const info = (packagepath) => {
             author: pjson.author
         };
     }
+    console.log('Unable to find path: ',packagepath);
     return null;   
 }
 

@@ -1,4 +1,4 @@
-const https = require('http');
+const http = require('http');
 
 /**
  * @description checks if the service is accessible by the system

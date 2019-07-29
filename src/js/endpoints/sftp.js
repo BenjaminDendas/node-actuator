@@ -10,7 +10,7 @@ const sftpClient = require('ssh2-sftp-client');
  */
 const isSftpServerOnline = async (host, port, username, password) => {
     const sftp = new sftpClient();
-    await sftp.connect({
+    return await sftp.connect({
         host,
         port,
         username,
