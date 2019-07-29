@@ -1,3 +1,7 @@
+/**
+ * @description returns various metrics of the application
+ * @returns {object} returns object with metrics about the application
+ */
 const getApplicationMetrics = () => {
         return {
             memoryUsage: process.memoryUsage(),
