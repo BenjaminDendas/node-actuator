@@ -6,6 +6,7 @@ const metricsEndpoint = require('./src/js/endpoints/metrics');
 const urlEndpoint = require('./src/js/endpoints/url'); 
 const gitEndpoint = require('./src/js/endpoints/git'); 
 const sftpEndpoint = require('./src/js/endpoints/sftp'); 
+const mailerEndpoint = require('./src/js/endpoints/mail'); 
 
 module.exports = {
     databaseEndpoint,
@@ -14,5 +15,6 @@ module.exports = {
     metricsEndpoint,
     urlEndpoint,
     gitEndpoint,
-    sftpEndpoint
+    sftpEndpoint,
+    mailerEndpoint
 }

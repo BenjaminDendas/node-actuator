@@ -1,6 +1,6 @@
 {
   "name": "node-actuator",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Node actuator",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "docdash": "^1.1.1",
+    "nodemailer": "^6.3.0",
     "ssh2-sftp-client": "^2.5.0"
   }
 }
