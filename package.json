@@ -1,6 +1,6 @@
 {
   "name": "node-actuator",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Node actuator",
   "main": "index.js",
   "scripts": {

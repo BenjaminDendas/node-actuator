@@ -18,15 +18,11 @@ const isSftpServerOnline = async (host, port, username, password) => {
     }).then((res) => {
         res.end();
         return {
-            status: {
                 online: true
-            }
         };
     }).catch((err) => {
         return {
-            status: {
                 online: false
-            }
         };
     });
 }
